@@ -1,0 +1,97 @@
+body{
+	background:url('dance.jpg');
+	background-size: cover;
+	font-family: Arial;
+}
+.wrap1{
+	max-width: 350px;
+	border-radius: 20px;
+	margin: auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing: border-box;
+	padding: 40px;
+	color: #fff;
+	margin-top: 100px;
+	display: none;
+}
+
+.wrap{
+	display: none;
+}
+h2{
+	text-align: center;
+}
+.wrap1 p{
+	text-align: center;
+	text-indent: 2px;
+	direction: rtl;
+	word-spacing: 2px;
+	font-size: 12px;
+}
+
+#showListBlock{
+	display: none;
+}
+
+
+#registerBlock button{
+    border:1px solid black;
+    border-radius:9px;
+    font-size:20px;
+    word-wrap: break-word;
+    width: 100px; 
+    max-width: 60%;
+    margin-left: 33%;
+    background-color: rgba(4, 39, 196, 0.575) ;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  #registerBlock button:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.911);
+    color: #ffffff;
+}
+
+
+#showListBlock table{
+	justify-content: center;
+	margin-left:auto; 
+    margin-right:auto;
+    margin-top: 3%
+} 
+
+#registrantList {
+  font-family: "Arial";
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 1vw;
+  justify-content: center;
+}
+
+#registrantList td, #registrantList th {
+  border: none;
+  color: #ddd;
+  padding: 8px;
+}
+
+#registrantList tr:nth-child(even)
+{
+	background-color: #000000af;
+	color: #ddd;
+}
+#registrantList tr:nth-child(odd)
+{
+	background-color: #000000af;
+	color: #ddd;
+}
+#registrantList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #000000c0;
+  color: #ddd;
+}
+
+#register-btn{
+	margin-top: 30px;
+}
